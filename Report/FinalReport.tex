@@ -1,0 +1,69 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{lipsum}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Kinematic Modeling and Control of the PUMA 560 Robot Arm using MATLAB}
+\author{
+  \IEEEauthorblockN{Liam Goss}
+  \IEEEauthorblockA{\textit{ECE Dept., LCOE}\\
+  \textit{California State University, Fresno}\\
+  Course: ECE 173 \\
+  Professor: Dr. Wu}
+  \and
+  \IEEEauthorblockN{Luigi Santiago-Villa}
+  \IEEEauthorblockA{\textit{ECE Dept., LCOE}\\
+  \textit{California State University, Fresno}\\
+  Course: ECE 173 \\
+  Professor: Dr. Wu}
+}
+
+\maketitle
+
+\begin{abstract}
+This report presents the comprehensive modeling and control of the PUMA 560 robot arm using MATLAB, focusing on both forward and inverse kinematics. The project utilizes the Robotics System Toolbox and Simscape to develop a detailed 3D model of the robot, enabling accurate simulations of the arm's kinematic behavior and control strategies. Forward kinematics were employed to determine the position and orientation of the robot’s end-effector from given joint angles, while inverse kinematics were used to calculate necessary joint angles to achieve desired end-effector positions. The project successfully demonstrates the robot's capability to perform precise movements, crucial for applications in industries such as manufacturing and medical assistance. Through the integration of MATLAB's computational tools, this study not only enhances the understanding of robotic motion and control but also provides a valuable educational resource for advanced robotics research. The outcomes show significant potential for improving the efficiency and functionality of automated systems, emphasizing the importance of kinematic analyses in developing effective robotic solutions.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Robotics, Kinematic Modeling, PUMA 560 Robot Arm, MATLAB Simulation, Forward Kinematics, Inverse Kinematics, Robotics System Toolbox, Control Systems, Engineering Education, Industrial Automation
+\end{IEEEkeywords}
+
+\section{Introduction}
+The objective of this project is to model a PUMA 560 arm in MATLAB and calculate the necessary forward and inverse kinematics. The Robotics System Toolbox and Simscape [1] will allow for the creation of a PUMA 560 model by leveraging the Denavit-Hartenberg parameters; this model will be controlled by the forward and inverse kinematics and dynamics calculation functions designed specifically for this project.
+\section{Background}
+
+\subsection{Maintaining the Integrity of the Specifications}
+
+\lipsum[1-2]
+
+\subsection{Some Section}
+\lipsum[3-4]
+
+
+\pagebreak
+\begin{thebibliography}{00}
+    \bibitem{b1} ``Model and Control a Manipulator Arm with Robotics and Simscape - MATLAB \& Simulink,'' www.mathworks.com. Available: https://www.mathworks.com/help/robotics/ug/model-and-control-a-manipulator-arm-with-simscape.html
+    \bibitem{b2} P. Corke and B. Armstrong-Hélouvry, ``A search for consensus among model parameters reported for the PUMA 560 robot,'' in Proc. of the International Conference on Robotics and Automation, May 1994, doi: https://doi.org/10.1109/robot.1994.351360.
+    \bibitem{b3} F. Piltan and Iran Ssp, ``PUMA-560 Robot Manipulator Position Computed Torque Control Methods Using MATLAB/SIMULINK and Their Integration into Graduate Nonlinear Control and MATLAB Courses,'' International Journal of Robotics \& Automation, Jan. 2012.
+    \bibitem{b4} S. Elgazzar, ``Efficient kinematic transformations for the PUMA 560 robot,'' IEEE Journal on Robotics and Automation, vol. 1, no. 3, pp. 142–151, 1985, doi: https://doi.org/10.1109/jra.1985.1087013.
+    \bibitem{b5} D. Jokić, S. Lubura, V. Rajs, M. Bodić, and H. Šiljak, ``Two Open Solutions for Industrial Robot Control: The Case of PUMA 560,'' Electronics, vol. 9, no. 6, p. 972, Jun. 2020, doi: https://doi.org/10.3390/electronics9060972.
+    \bibitem{b6} W. E. Dixon, D. Moses, I. D. Walker, and D. M. Dawson, ``A Simulink-based robotic toolkit for simulation and control of the PUMA 560 robot manipulator,'' OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information), Nov. 2002, doi: https://doi.org/10.1109/iros.2001.976397.
+    \bibitem{b7} A. Izadbakhsh, ``Closed-form dynamic model of PUMA 560 robot arm,'' Feb. 2009, doi: https://doi.org/10.1109/icara.2000.4803940.
+    \bibitem{b8} ``Robot Forward and Inverse Kinematics Research using Matlab,'' International Journal of Recent Technology and Engineering, vol. 8, no. 2S3, pp. 29–35, Aug. 2019, doi: https://doi.org/10.35940/ijrte.b1006.0782s319.
+    \bibitem{b9} T. F. Abaas, A. A. Khleif, and M. Q. Abbood, ``Inverse Kinematics Analysis and Simulation of a 5 DOF Robotic Arm using MATLAB,'' Al-Khwarizmi Engineering Journal, vol. 16, no. 1, pp. 1–10, Mar. 2020, doi: https://doi.org/10.22153/kej.2020.12.001.
+    \bibitem{b10} A. N. Barakat, K. A. Gouda, and K. A. Bozed, ``Kinematics analysis and simulation of a robotic arm using MATLAB,'' IEEE Xplore, Dec. 01, 2016. Available: https://ieeexplore.ieee.org/abstract/document/7929032
+    \bibitem{b11} J. Xiao, W. Han, and A. Wang, ``Simulation research of a six degrees of freedom manipulator kinematics based On MATLAB toolbox,'' Dec. 2017, doi: https://doi.org/10.1109/icamechs.2017.8316502.
+    \bibitem{b12} Oveisi, Atta, Jarrahi, Miad, Gudarzi, Mohammad, \& Mohammadi, Mohammad. (2013). Genetic Algorithm and Adaptive Model Reference Controller in Tracking Problem of PUMA 560 Arm Robot.
+\end{thebibliography}    
+\vspace{12pt}
+\color{red}
+\end{document}
